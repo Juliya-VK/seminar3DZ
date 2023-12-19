@@ -8,8 +8,7 @@
 
         for (int i = 0; i < myArray.Length; i++)
         {
-            int num = myArray[i]; // Определение переменной num для текущего элемента массива
-
+            int num = myArray[i]; 
             if (num >= 20 && num <= 90)
             {
                 count++;
